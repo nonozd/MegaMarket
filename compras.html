@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="compras/estilo.css" />
+    <title>Compras realizadas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">Compras realizadas</h1>
+      <div id="compras-container" class="table-responsive mt-5">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Opciones</th>
+            </tr>
+          </thead>
+          <tbody id="compras-body">
+            <!-- Filas de la tabla generadas dinámicamente -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="compras/script.js"></script>
+  </body>
+</html>

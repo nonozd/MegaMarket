@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="script.js" async></script>
+    <title>MegaMarket</title>
+    <link rel="icon" href="img/icono.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="img/header.jpg" alt="Logo de tu marca" /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="compras.html">Ver compras</a></li>
+          <li><a href="Contactos/index.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form action="#" method="get">
+          <input type="text" name="q" placeholder="Buscar productos..." />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="login">
+        <a href="IniciarSesion/login.html">Iniciar sesión</a>
+        <a href="Registro/registro.html">Registrarse</a>
+      </div>
+    </header>
+    <section class="contenedor">
+      <!-- Contenedor de elementos -->
+      <div class="contenedor-items">
+        <div class="item">
+          <span class="titulo-item"
+            >ASUS Chromebook Vibe C55 Flip, computadora portátil para
+            juegos,procesador Intel® Core™ i5-1135G7, SSD de 512 GB, 16 GB de
+            RAM <br /><br />
+          </span>
+          <img src="img/ASUSChromebook.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/2.575</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Lenovo IdeaPad 1 14 portátil,pantalla HD de 14.0 pulgadas, Intel
+            Celeron N4020, 4 GB de RAM, 64 GB de almacenamiento<br /><br
+          /></span>
+          <img src="img/LenovoIdeaPad.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/596</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >HyperX Alloy Origins Core: teclado mecánico para juegos sin teclas,
+            luz controlada por software y personalización macro<br /><br
+          /></span>
+          <img src="img/tecladoHyperx.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/213</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Altavoces de estante eléctricos Edifier R1280T, monitores de campo
+            cercano 2.0 activo<br /><br
+          /></span>
+          <img src="img/altavoces.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/6.631</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Logitech G 305 LIGHTSPEED,Mouse inalámbrico para juegos,6 botones
+            programables<br /><br
+          /></span>
+          <img src="img/mouselogitech.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/150</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >HyperX Fury S - Almohadilla para mouse para videojuegos,superficie
+            de tela optimizada para mayor precisión<br /><br
+          /></span>
+          <img src="img/mousepad.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/70</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Echo Dot (4ta Generación) | Parlante inteligente con reloj y Alexa
+            | Glaciar Blanco<br /><br
+          /></span>
+          <img src="img/alexa.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/220</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Tarjeta Gráfica maxsun AMD Radeon RX 550 4GB GDDR5 ITX PC
+            Gaming,GPU 128-Bit DirectX 12 PCI Video<br /><br
+          /></span>
+          <img src="img/tarjetagrafica.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/400</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"
+            >Logitech G PRO X - Auriculares inalámbricos para juegos con
+            tecnología de filtro de micrófono<br /><br
+          /></span>
+          <img src="img/headset.jpg" alt="" class="img-item" />
+          <span class="precio-item">S/740</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+      </div>
+
+      <!-- Carrito de Compras -->
+      <div class="carrito" id="carrito">
+        <div class="header-carrito">
+          <h2>Carro de compras</h2>
+        </div>
+        <div class="carrito-items"></div>
+        <div class="carrito-total">
+          <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total"> S/120.000,00 </span>
+          </div>
+          <button class="btn-pagar" onclick="guardarCompras()">
+            Pagar <i class="fa-solid fa-bag-shopping"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Celular</h4>
+          <p>123-456-789</p>
+        </div>
+        <div class="content-foo">
+          <h4>Correo</h4>
+          <p>megamarket@hotmail.com</p>
+        </div>
+        <div class="content-foo">
+          <h4>Ubicación</h4>
+          <p>Av. Universitaria 5175, Los Olivos 15304</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

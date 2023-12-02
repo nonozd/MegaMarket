@@ -1,0 +1,53 @@
+/* Estilos para la página de compras */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.table {
+  background-color: #fff;
+}
+
+.btn {
+  padding: 6px 12px;
+}
+
+.btn-eliminar {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-eliminar:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-editar {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-editar:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
